@@ -1,0 +1,21 @@
+variant,eligible,spearman,top10_overlap
+prior from pressure balls only,100,1.0,10
+eligibility 60 balls/5 matches,159,1.0,9
+eligibility 100 balls/10 matches,104,1.0,10
+eligibility 150 balls/16 matches,65,1.0,10
+weights sp only,100,0.99,8
+weights .6/.2/.2,100,0.97,8
+weights .5/.25/.25,100,0.95,7
+no conservative adj,100,1.0,9
+hit-rate prior 5,100,1.0,10
+WP rule starts over 9,100,1.0,10
+WP rule starts over 13,100,1.0,10
+WP band 0.05-0.25,108,0.96,9
+WP band 0.15-0.25,92,0.97,9
+WP band 0.10-0.20,93,0.98,8
+WP band 0.10-0.30,105,0.97,9
+bowler WP window from over 11 (not 7),88,0.96,9
+no batter-quality adjustment,100,0.96,9
+baseline-change weight 0.1,100,0.99,8
+no triggers,78,0.95,8
+no no-ball trigger,98,1.0,10

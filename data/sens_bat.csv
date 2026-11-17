@@ -1,0 +1,16 @@
+variant,eligible,spearman,top10_overlap
+prior from non-pressure balls,92,1.0,10
+eligibility 60 balls/5 matches,183,1.0,6
+eligibility 100 balls/10 matches,122,1.0,7
+eligibility 150 balls/16 matches,80,1.0,10
+weights sp only,92,0.96,9
+weights .6/.2/.2,92,0.99,9
+weights .5/.25/.25,92,0.98,9
+no conservative adj,92,1.0,9
+hit-rate prior 5,92,1.0,10
+WP rule starts over 9,92,1.0,10
+WP rule starts over 13,92,1.0,10
+WP band 0.05-0.25,96,0.93,9
+WP band 0.15-0.25,87,0.96,7
+WP band 0.10-0.20,92,1.0,10
+WP band 0.10-0.30,92,1.0,9
